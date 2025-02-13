@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author      Lukasz Owczarczuk <lowczarczuk@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="qoliber_media_cleaner">
+        <job name="qoliber_media_cleaner_cleanup" instance="Qoliber\MediaCleaner\Cron\Cleanup" method="execute">
+            <config_path>qoliber_media_cleaner/settings/cron</config_path>
+        </job>
+    </group>
+</config>

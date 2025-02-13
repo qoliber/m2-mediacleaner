@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author      Lukasz Owczarczuk <lowczarczuk@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <qoliber_media_cleaner>
+            <settings>
+                <enabled>0</enabled>
+                <cron_enabled>0</cron_enabled>
+                <cron_expression>0 2 * * 0</cron_expression>
+                <clean_cache_directory>0</clean_cache_directory>
+            </settings>
+        </qoliber_media_cleaner>
+    </default>
+</config>

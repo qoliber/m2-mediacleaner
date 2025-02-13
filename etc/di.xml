@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author      Lukasz Owczarczuk <lowczarczuk@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Qoliber\MediaCleaner\Api\CleanerProviderInterface"
+                type="Qoliber\MediaCleaner\Model\CleanerProvider"/>
+
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="qoliber_media_cleaner_clean_media"
+                      xsi:type="object">Qoliber\MediaCleaner\Command\CleanMedia</item>
+            </argument>
+        </arguments>
+    </type>
+
+    <type name="Qoliber\MediaCleaner\Api\CleanerProviderInterface">
+        <arguments>
+            <argument name="cleaners" xsi:type="array">
+                <item name="product_image_cache"
+                      xsi:type="object">Qoliber\MediaCleaner\Cleaner\ProductImageCache</item>
+                <item name="product_image"
+                      xsi:type="object">Qoliber\MediaCleaner\Cleaner\ProductImage</item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>
