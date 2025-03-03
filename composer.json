@@ -1,10 +1,10 @@
 {
-  "name": "qoliber/m2-payment-restrictions",
-  "version": "1.0.0",
+  "name": "qoliber/m2-mediacleaner",
+  "version": "1.0.1",
   "source": {
     "type": "git",
-    "url": "git@github.com:qoliber/m2-payment-restrictions.git",
-    "reference": "master"
+    "url": "git@github.com:qoliber/m2-mediacleaner.git",
+    "reference": "main"
   },
   "authors": [
     {
@@ -18,7 +18,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Qoliber\\PaymentRestrictions\\": ""
+      "Qoliber\\MediaCleaner\\": ""
     }
   }
 }
