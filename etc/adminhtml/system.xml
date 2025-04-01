@@ -11,7 +11,7 @@
     <system>
         <section id="qoliber_media_cleaner" translate="label" sortOrder="1200"
                  showInDefault="1" showInWebsite="1" showInStore="1">
-            <class>qoliber</class>
+            <class>separator-top</class>
             <label>Media Cleaner</label>
             <tab>qoliber</tab>
             <resource>Qoliber_MediaCleaner::config</resource>

@@ -1,16 +1,15 @@
 {
   "name": "qoliber/m2-mediacleaner",
-  "version": "1.0.2",
+  "version": "1.0.3",
+  "require": {
+    "qoliber/core": "*"
+  },
   "source": {
     "type": "git",
     "url": "git@github.com:qoliber/m2-mediacleaner.git",
     "reference": "main"
   },
   "authors": [
-    {
-      "name": "Jakub Winkler",
-      "email": "jwinkler@qoliber.com"
-    },
     {
       "name": "qoliber",
       "email": "info@qoliber.com"
