@@ -4,7 +4,7 @@
  *
  * @category    Qoliber
  * @package     Qoliber_MediaCleaner
- * @author      Lukasz Owczarczuk <lowczarczuk@qoliber.com>
+ * @author      qoliber <info@qoliber.com>
  */
 
 declare(strict_types = 1);

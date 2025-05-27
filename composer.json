@@ -1,6 +1,6 @@
 {
   "name": "qoliber/m2-mediacleaner",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "require": {
     "qoliber/core": "*"
   },
